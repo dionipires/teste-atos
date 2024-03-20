@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/teste-atos/static/js/main.4e5b8b50.js",
+    "main.js": "/teste-atos/static/js/main.6f499ace.js",
     "static/js/453.415aacc2.chunk.js": "/teste-atos/static/js/453.415aacc2.chunk.js",
     "index.html": "/teste-atos/index.html",
-    "main.4e5b8b50.js.map": "/teste-atos/static/js/main.4e5b8b50.js.map",
+    "main.6f499ace.js.map": "/teste-atos/static/js/main.6f499ace.js.map",
     "453.415aacc2.chunk.js.map": "/teste-atos/static/js/453.415aacc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4e5b8b50.js"
+    "static/js/main.6f499ace.js"
   ]
 }
