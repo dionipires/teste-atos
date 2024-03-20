@@ -110,7 +110,7 @@ const NavBar: React.FC = () => {
 
   const handleLogout = () => {
     sessionStorage.removeItem('accessToken');
-    navigate('/');
+    navigate('/teste-atos');
   };
 
   return (

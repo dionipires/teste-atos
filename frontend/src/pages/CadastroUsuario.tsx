@@ -137,7 +137,7 @@ const CadastroUsuario = () => {
       const data = await response.json();
 
       if (response.ok) {
-        navigate('/');
+        navigate('/teste-atos');
       } else {
         setErro(data.message);
       }
