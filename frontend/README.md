@@ -14,15 +14,40 @@ Este é um sistema web para gerenciamento de produtos, onde os usuários podem f
 - Edição de produtos existentes
 - Exclusão de produtos
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas Backend
+- Nodejs
 
+## Tecnologias Utilizadas Frontend
 - React.js
 - React Router
 - Axios
 - Styled Components
 - TypeScript
 
-## Instalação
+## Instalação backend-end
+
+Para rodar o projeto corretamente e realizar as autenticações é necessário instalar o server de autenticação:
+ 1. Abra outro terminal e acesse:
+
+    ```
+    cd teste-atos/backend
+    ```
+ 2. Instale o server de autenticação:
+
+    ```
+    npm install
+    ```
+ 3. Para o uso no dia-a-dia, Execute o servidor de autenticação:
+
+    ```
+    npm run start-auth
+    ```
+
+ Consulte a documentação README em `/backend` para instruções sobre como executar a aplicação backend.
+
+ Documentação API com Json Server: https://github.com/jeremyben/json-server-auth
+
+## Instalação Front-end
 
 1. Clone o repositório:
 ```
@@ -40,11 +65,9 @@ npm install
 npm start
 ```
 
-4. **Importante**: Para rodar o projeto corretamente, é necessário também iniciar a aplicação backend. Consulte o README em `/backend` para instruções sobre como executar a aplicação backend.
-
 ## Como Usar
 
-1. Acesse o sistema através do navegador web.
+1. Acesse o sistema através do navegador web usando a url http://localhost:3000/
 2. Faça login com suas credenciais ou cadastre um novo usuário.
 3. Após fazer login, você será redirecionado para o dashboard, onde pode visualizar informações sobre os produtos cadastrados.
 4. Utilize as opções de navegação para adicionar, editar ou excluir produtos conforme necessário.
